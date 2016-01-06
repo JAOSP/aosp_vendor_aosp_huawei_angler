@@ -20,8 +20,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.facelock.lively_timeout=2500 \
 	ro.facelock.est_max_time=600 \
 	ro.facelock.use_intro_anim=false \
-	ro.build.expect.bootloader=angler-02.01 \
-	ro.build.expect.baseband=angler-02.15
+	ro.build.expect.bootloader=angler-02.45 \
+	ro.build.expect.baseband=angler-02.50
 
 
 $(call inherit-product, $(LOCAL_PATH)/device-angler.mk)
